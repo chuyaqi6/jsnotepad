@@ -1,0 +1,28 @@
+{
+  "name": "jsnotepad",
+  "version": "1.0.0",
+  "description": "win10 notepad 程序网页版",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chuyaqi6/jsnotepad.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chuyaqi6/jsnotepad/issues"
+  },
+  "homepage": "https://github.com/chuyaqi6/jsnotepad#readme",
+  "devDependencies": {
+    "grunt": "^1.1.0",
+    "grunt-contrib-csslint": "^2.0.0",
+    "grunt-contrib-cssmin": "^3.0.0",
+    "grunt-contrib-htmlmin": "^3.1.0",
+    "grunt-contrib-uglify": "^4.0.1",
+    "grunt-eslint": "^22.0.0",
+    "grunt-htmlhint": "^0.9.13"
+  }
+}
