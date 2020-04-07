@@ -2,11 +2,31 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>jsnotepad</title>
-  <link rel="icon" href="https://i.wangding.in/favicon.ico" sizes="48x48" type="image/png">
+  <title>记事本</title>
+  <!-- build:css bundle.min.css -->
+  <link rel="stylesheet"  href="./com/menubar/menubar.css">
+  <link rel="stylesheet"  href="./css/dlg-common.css">
+  <link rel="stylesheet"  href="./css/normalize.css">
+  <link rel="stylesheet" href="./com/list/list.css">
+  <link rel="stylesheet" href="./com/editor/editor.css">
+  <link rel="stylesheet" href="./com/dlg-font/dlg-font.css">
+  <!-- endbuild -->
+  <link rel="icon" href="./images/notepad-icon-32.png" sizes="32x32" type="image/png">
+</head>
 <body>
-  <li><a href="./com/dlg-goto/index.html">转到对话框布局和测试</a></li>
-  <li><a href="./com/dlg-search/index.html">查找对话框布局和测试</a></li>
-  <li><a href="./com/dlg-about/index.html">关于对话框布局和测试</a></li>
+  <div class="notepad-app">
+  </div>
+  <script src="https://code.jquery.com/jquery-3.1.1.min.js"> </script>
+  <script src="https://cdn.bootcss.com/jqueryui/1.12.1/jquery-ui.min.js"></script>
+  <!-- build:js bundle.min.js -->
+  <script src="./com/menubar/menubar.js"></script>
+  <script src="./com/list/list.js"></script>
+  <script src="./com/dlg-font/dlg-font.js"></script>
+  <script src="./com/editor/editor.js"></script>
+  <script src="./js/app.js"></script>
+  <script src="./js/menu-data.js"></script>
+  <!-- endbuild -->
+  
+  
 </body>
 </html>
